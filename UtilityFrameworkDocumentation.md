@@ -3,7 +3,7 @@
 This documentation covers the utility functions provided for DOM manipulation, event handling, and form handling. These functions are designed to simplify common tasks in your project.
 
 ### Function List
-* createElemen
+* createElement
 * addClasses
 * onClick
 * appendChildren
