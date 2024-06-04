@@ -23,9 +23,9 @@ const element = createElement(tag, attributes = {}, textContent = '');
 ```
 
 **Parametres:**
-* `**tag**` (string): The type of element to create (e.g., 'div', 'span', 'input').
-* `**attributes**` (object): An object containing key-value pairs of attributes to set on the element.
-* `**textContent**` (string): The text content to set for the element.
+* `tag` (string): The type of element to create (e.g., 'div', 'span', 'input').
+* `attributes` (object): An object containing key-value pairs of attributes to set on the element.
+* `textContent` (string): The text content to set for the element.
 
 **Example:**
 
