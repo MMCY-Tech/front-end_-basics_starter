@@ -36,6 +36,16 @@ function onClick(element, callback) {
 }
 
 /**
+ * Utility function to attach a click event listener to a DOM element.
+ * @param {HTMLElement} element - The element to attach the event listener to.
+ * @param {Function} callback - The event handler function.
+ */
+function onInput(elementId, callback) {
+    const element = document.getElementById(elementId);
+    element?.addEventListener('input', callback);
+}
+
+/**
  * Utility function to create a form field input element.
  * @param {string} type - The type of the input element.
  * @param {string} name - The name attribute of the input element.
